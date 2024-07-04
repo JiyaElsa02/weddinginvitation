@@ -237,7 +237,7 @@
 	
 	
 	// CountDown Js
-	var deadline = 'July 29 2024 11:00:00 GMT-0400';
+	var deadline = 'July 29 2024 11:00:00 GMT+0530';
 		function time_remaining(endtime){
 			var t = Date.parse(endtime) - Date.parse(new Date());
 			var seconds = Math.floor( (t/1000) % 60 );
